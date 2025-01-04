@@ -1,0 +1,13 @@
+.DS_Store
+.idea
+.phpunit.cache/
+.phpunit.result.cache
+bin
+clover.xml
+composer.lock
+coverage
+coverage.xml
+report/
+tests/ClientDI.php
+tests/files
+vendor

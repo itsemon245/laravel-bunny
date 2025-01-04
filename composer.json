@@ -1,0 +1,32 @@
+{
+    "name": "itsemon245/laravel-bunny",
+    "description": "A simple wrapper arround bunny cdn laravel filesystem adapter",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Itsemon245\\LaravelBunny\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Itsemon245\\LaravelBunny\\LaravelBunnyServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Mojahidul Islam",
+            "email": "itsemon245@gmail.com"
+        }
+    ],
+    "require": {
+        "platformcommunity/flysystem-bunnycdn": "^3.3"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.1"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
