@@ -22,7 +22,8 @@
         }
     ],
     "require": {
-        "platformcommunity/flysystem-bunnycdn": "^3.3"
+        "platformcommunity/flysystem-bunnycdn": "^3.3",
+        "league/flysystem-path-prefixing": "^3.28"
     },
     "require-dev": {
         "orchestra/testbench": "^9.1"
