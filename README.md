@@ -22,7 +22,7 @@ Add a new entry for `disks` in `config/filesystems.php` using the following exam
       'storage_zone' => env('BUNNYCDN_STORAGE_ZONE', 'my-storage-zone'),# Name of your storage zone
       'pull_zone' => env('BUNNYCDN_PULL_ZONE', 'https://random.b-cdn.net'),#Pull Zone URL
       'api_key' => env('BUNNYCDN_API_KEY') # Use one of the password found in the storage zone.
-      'region' => env('BUNNYCDN_REGION', Itsemon245\LaravelBunny\Region::DEFAULT), #the default should be de
+      'region' => env('BUNNYCDN_REGION', Itsemon245\LaravelBunny\Region::DEFAULT),
       'root'=> 'my-files',#Optional, all files will be stored under this directory if specified
   ]
 ```
