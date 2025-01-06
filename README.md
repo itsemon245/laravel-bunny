@@ -54,8 +54,10 @@ The package also comes with a set of region constants to use
 ```php
 use Itsemon245\LaravelBunny\Region;
 
-# Europe
+# Default
 Region::DEFAULT = 'de';
+
+# Europe
 Region::FALKENSTEIN = 'de';
 Region::STOCKHOLM = 'se';
 

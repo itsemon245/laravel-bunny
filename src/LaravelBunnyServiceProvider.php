@@ -26,7 +26,7 @@ class LaravelBunnyServiceProvider extends \Illuminate\Support\ServiceProvider{
         new BunnyCDNClient(
           $config['storage_zone'],
           $config['api_key'],
-          $config['region']
+          $config['region'] ?? Region::DEFAULT
         ),
         $pullZoneUrl
       );
